@@ -89,3 +89,17 @@ exports.lipaNaMpesaOnline = async (req, res) => {
     });
   }
 };
+
+// Lipa na mpesa online callback
+
+exports.lipaNaMpesaOnlineCallback = (req, res) => {
+  // Get transaction description
+  let message = req.body.Body.stkCallback["ResultDesc"];
+
+  return res.send({
+    success: true,
+    message,
+  });
+};
+
+
