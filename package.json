@@ -1,0 +1,29 @@
+{
+  "name": "mpesa-online",
+  "version": "1.0.0",
+  "description": "An mpesa integration with express js framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brayohmurithidev/mpesa-online.git"
+  },
+  "keywords": [
+    "Mpesa-online",
+    "Express.js",
+    "Daraja",
+    "API"
+  ],
+  "author": "brayohmurithidev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brayohmurithidev/mpesa-online/issues"
+  },
+  "homepage": "https://github.com/brayohmurithidev/mpesa-online#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
